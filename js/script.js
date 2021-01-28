@@ -140,6 +140,8 @@ $(document).ready(function() {
 	}
 });
 
+// add current year in the copyright section
+document.getElementById('current_year').append(new Date().getFullYear())
 
 
 
